@@ -83,7 +83,9 @@
         "idno/console-periodicexecutionservice": "^0.9.10",
         "idno/console-statistics": "^1.0",
         "idno/console-import": "^1.0",
-        "idno/console-export": "^1.0"
+        "idno/console-export": "^1.0",
+        "masterminds/html5": "^2.7",
+        "idno/amazon-s3": "^1.0.0"
     },
     "license": "Apache-2.0",
     "prefer-stable": true,
@@ -115,7 +117,8 @@
         "mapkyca/known-dev-scripts": "^1.0",
         "idno/apitester": "^0.9.10",
         "roave/security-advisories": "dev-master",
-        "mapkyca/mapkyca-known-docker": "^1.0"
+        "mapkyca/mapkyca-known-docker": "^1.0",
+        "heroku/heroku-buildpack-php": "*"
     },
     "extra": {
         "unused": [

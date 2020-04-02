@@ -1,0 +1,41 @@
+{
+  "name": "Known",
+  "description": "A social publishing platform",
+  "keywords": ["indieweb", "community", "php", "known", "blogging", "publishing", "social"],
+  "repository": "https://github.com/idno/known",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev",
+      "as": "KNOWN_DATABASE"
+    },
+    "cloudcube:free"
+  ],
+  "env": {
+    "BASE": {
+      "value": "/app"
+    },
+    "KNOWN_PORT": {
+      "value": "443"
+    }
+  },
+  "environments": {
+    "review": {
+      "env": {
+      }
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
