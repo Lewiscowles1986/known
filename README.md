@@ -12,7 +12,8 @@
 
 If you want to install on your own web space, we recommend [Reclaim Hosting](https://portal.reclaimhosting.com/aff.php?aff=013),
 which includes one-click Known installation. Known is also known to work on [DreamHost](https://dreamhost.com), a high-quality
-web hosting provider.
+web hosting provider. Recently efforts have ported to Cloud PaaS service [Heroku](https://heroku.com)[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy).
+
 
 ### Installing
 
