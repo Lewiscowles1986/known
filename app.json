@@ -5,7 +5,7 @@
   "repository": "https://github.com/idno/known",
   "addons": [
     {
-      "plan": "heroku-postgresql:hobby-dev",
+      "plan": "cleardb:ignite",
       "as": "KNOWN_DATABASE"
     },
     "cloudcube:free"
